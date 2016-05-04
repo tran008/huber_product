@@ -1,8 +1,8 @@
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Company
 {
-	private ArrayList 	products;
+	private LinkedList products;
 	private String 		name;	// "IBM"
 	
 	public Products ()
