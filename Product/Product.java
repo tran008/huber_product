@@ -1,8 +1,12 @@
 public class Product
 {
 	private String 	name;	// "Coca Cola"
+<<<<<<< HEAD
 	private float	price;	// 10
 	private int 	id;
+=======
+	private boolean onStock; // true
+>>>>>>> origin/master
 	
 	public Product ()
 	{
@@ -18,14 +22,14 @@ public class Product
 		this.name = name;
 	}
 	
-	public String getPrice ()
+	public boolean getOnStock ()
 	{
-		return this.price;
+		return this.onStock;
 	}
 	
-	public void setPrice (float price)
+	public void setOnStock (boolean onStock)
 	{
-		this.price = price;
+		this.onStock = onStock;
 	}
 	
 	public int getId ()
