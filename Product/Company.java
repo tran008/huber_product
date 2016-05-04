@@ -1,8 +1,8 @@
-import java.util.TreeSet;
+import java.util.LinkedList;
 
 public class Company
 {
-	private TreeSet products;
+	private LinkedList products;
 	
 	public Products ()
 	{
