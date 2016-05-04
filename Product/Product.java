@@ -1,12 +1,12 @@
 public class Product
 {
-	private String name;	// "Coca Cola"
+	private String 	name;	// "Coca Cola"
 	
 	public Product ()
 	{
 	}
 	
-	public String getname ()
+	public String getName ()
 	{
 		return this.name;
 	}
@@ -15,5 +15,4 @@ public class Product
 	{
 		this.name = name;
 	}
-	
 }

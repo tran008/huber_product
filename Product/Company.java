@@ -1,9 +1,11 @@
+import java.util.ArrayList;
+
 public class Company
 {
-	private ArrayList products;
-	private String name;
+	private ArrayList 	products;
+	private String 		name;	// "IBM"
 	
-	public Company ()
+	public Products ()
 	{
 		
 	}
