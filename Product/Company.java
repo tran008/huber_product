@@ -1,9 +1,10 @@
+import java.util.TreeSet;
+
 public class Company
 {
-	private ArrayList products;
-	private String name;
+	private TreeSet products;
 	
-	public Company ()
+	public Products ()
 	{
 		
 	}
