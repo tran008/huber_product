@@ -1,11 +1,7 @@
 public class Product
 {
 	private String 	name;	// "Coca Cola"
-<<<<<<< HEAD
 	private boolean onStock; // true
-=======
-	private float	price;	// 10
->>>>>>> origin/master
 	
 	public Product ()
 	{
@@ -21,7 +17,6 @@ public class Product
 		this.name = name;
 	}
 	
-<<<<<<< HEAD
 	public boolean getOnStock ()
 	{
 		return this.onStock;
@@ -30,15 +25,5 @@ public class Product
 	public void setOnStock (boolean onStock)
 	{
 		this.onStock = onStock;
-=======
-	public String getPrice ()
-	{
-		return this.price;
-	}
-	
-	public void setPrice (float price)
-	{
-		this.price = price;
->>>>>>> origin/master
 	}
 }
